@@ -1,0 +1,32 @@
+.bg-img {
+  background-image: url("images/BackGround-Hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .bg-img {
+    min-height: 300px;
+  }
+  .bg-img .bg-dark {
+    padding: 1rem !important;
+    background: none !important;
+    box-shadow: none !important;
+  }
+  .bg-img2 {
+    max-width: 200px;
+    min-height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.bg-img2 {
+  background-image: url("images/Pulseira-VitaQR.png");
+  background-size: contain;      /* Mostra a imagem inteira */
+  background-position: center;
+  background-repeat: no-repeat;
+}
