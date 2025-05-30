@@ -1,5 +1,5 @@
-.bg-img {
-  background-image: url("images/BackGround-Hero.jpeg");
+.hero-section {
+  background-image: url('images/BackGround-Hero.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,26 +7,39 @@
   width: 100%;
 }
 
+.hero-content {
+  max-width: 1000px;
+}
+
+.pulseira-img {
+  background-image: url('images/Pulseira-VitaQR.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1/1;
+  min-height: 350px;
+  max-width: 500px;
+}
+
+.plano-lista,
+.privacidade-lista {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.privacidade-desc {
+  max-width: 700px;
+  margin: auto;
+}
+
 @media (max-width: 768px) {
-  .bg-img {
-    min-height: 300px;
+  .pulseira-desktop {
+    display: none !important;
   }
-  .bg-img .bg-dark {
-    padding: 1rem !important;
+  .hero-bg-mobile {
     background: none !important;
-    box-shadow: none !important;
-  }
-  .bg-img2 {
-    max-width: 200px;
-    min-height: 120px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: transparent !important;
   }
 }
 
-.bg-img2 {
-  background-image: url("images/Pulseira-VitaQR.png");
-  background-size: contain;      /* Mostra a imagem inteira */
-  background-position: center;
-  background-repeat: no-repeat;
-}
